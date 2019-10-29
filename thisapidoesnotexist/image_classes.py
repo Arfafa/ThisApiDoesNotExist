@@ -26,6 +26,10 @@ class Imagens:
     def _get_hash(self):
         self._hash = hashlib.md5(self._image).hexdigest()
 
+    def new_image(self):
+        self._get_image()
+        self._get_hash()
+
     def save_image(self, file_name=None):
         if file_name is None:
             file_name = self._hash+'.jpeg'
