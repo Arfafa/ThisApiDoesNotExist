@@ -1,2 +1,2 @@
-from .image_download import get_cat
-from .image_download import get_person
+from thisapidoesnotexist.image_download import get_cat
+from thisapidoesnotexist.image_download import get_person
