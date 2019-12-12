@@ -20,14 +20,14 @@ from thisapidoesnotexist import get_person, get_cat
 person = get_person()
 cat = get_cat()
 
-# Verificando as hashs das imagens coletadas
+# Verificando as hashes das imagens coletadas
 person.hash
 cat.hash
 
 # Salvando uma imagem no computador
 person.save_image()
 
-# Salvando imagem no computador com nome pré-definido
+# Salvando imagem no computador com nome definido pelo programa
 cat.save_image("gato.jpeg")
 
 # Carregando novas imagens
