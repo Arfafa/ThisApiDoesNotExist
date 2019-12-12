@@ -67,7 +67,7 @@ class Imagens:
         deve ser salva. Default é a hash da imagem em
         formato jpeg
         """
-        if file_name:
+        if not file_name:
             file_name = self._hash+'.jpeg'
 
         with open(file_name, 'wb') as f:
